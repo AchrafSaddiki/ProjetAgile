@@ -670,6 +670,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 224916668971674706, guid: bd7b25f8b0a59464e99b853dc63bdace,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4214567640106948, guid: bd7b25f8b0a59464e99b853dc63bdace, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.248589
@@ -712,11 +717,6 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224916668971674706, guid: bd7b25f8b0a59464e99b853dc63bdace,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114855984726049376, guid: bd7b25f8b0a59464e99b853dc63bdace,
         type: 3}
       propertyPath: gameSpeed
@@ -727,7 +727,8 @@ PrefabInstance:
       propertyPath: isAutoPlayEnabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1402542448182396, guid: bd7b25f8b0a59464e99b853dc63bdace, type: 3}
+    - target: {fileID: 4636217917820172680, guid: bd7b25f8b0a59464e99b853dc63bdace,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -736,8 +737,7 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4636217917820172680, guid: bd7b25f8b0a59464e99b853dc63bdace,
-        type: 3}
+    - target: {fileID: 1402542448182396, guid: bd7b25f8b0a59464e99b853dc63bdace, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -810,6 +810,7 @@ GameObject:
   - component: {fileID: 1395528228}
   - component: {fileID: 1395528227}
   - component: {fileID: 1395528226}
+  - component: {fileID: 1395528229}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -865,6 +866,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1395528229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395528225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 136eaf00956e138429f4ccb6ed1ffa6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NbrBlocks: 0
 --- !u!1 &1469383976
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +890,7 @@ GameObject:
   - component: {fileID: 1469383977}
   m_Layer: 0
   m_Name: Blocks
-  m_TagString: Untagged
+  m_TagString: blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
